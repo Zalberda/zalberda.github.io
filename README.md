@@ -1,3 +1,3 @@
 # zalberda.github.io
-tezoswiki.xyz
-Cool
+
+My portfolio site
