@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  display: grid;
+  width: 800px;
+  margin: 10px auto;
+  row-gap: 15px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aqua;
+}
+
+.header-h1 {
+}
+
+.header-nav {
+}
