@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .content {
@@ -8,6 +9,7 @@
   width: 800px;
   margin: 10px auto;
   row-gap: 15px;
+  font-family: sans-serif;
 }
 
 .header {
@@ -17,8 +19,21 @@
   background-color: aqua;
 }
 
-.header-h1 {
+h2 {
+  font-size: 32px;
+  grid-column: 1/-1;
 }
 
-.header-nav {
+p {
+  font-size: 22px;
+}
+
+.header-h1 {
+  font-size: 40px;
+}
+
+.section-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
 }

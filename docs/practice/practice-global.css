@@ -1,0 +1,21 @@
+/* practice global is meant for the items within the practice page, not the practice page itself... */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  justify-content: center;
+  row-gap: 15px;
+}
+
+.global-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aqua;
+}
