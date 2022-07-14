@@ -1,0 +1,6 @@
+1)Practice Page
+2)Blog
+
+Python portfolio
+ -NFT +/- amount made through objkt, connect wallet, search objkt +/- amount...
+    -NFTs { NFT stats - $ made / week, etc }

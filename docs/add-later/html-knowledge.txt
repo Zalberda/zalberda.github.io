@@ -1,0 +1,16 @@
+Inherited properties:(mostly related to text)
+font-family, font-size, font-weight, font-style, color, line-height, 
+letter-spacing, text-align, text-transform, text-shadown, list-style.
+
+*{
+  margin:0 (Inside of element container)
+  padding:0 (Outside of element container) (Typically will use "gap" from flexbox or grid display instead of padding)
+(This removed all initial margin/padding from items)
+
+  box-sizing:border-box;
+(This allows the width and height the "box" that is around the content to remain the same
+  -When adding margin - boxsize will remain the same, but the content within the box will be reduced to account for margin
+        -This is useful because then the layout of your page will remain unchanged when adding margin)  
+
+}
+  
